@@ -1,3 +1,31 @@
-.maindiv {
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: Norse-Bold;
+  src: url(Norse-Bold.otf);
+}
+
+html, body {
+  height: 100%;
+  font-family: 'Norse-Bold', Courier, monospace;
+  font-size: 50px;
+}
+
+.container {
+  display: flex;
+  height: 100%;
+}
+
+.leftdiv {
   border: 2px dotted seagreen;
+  background-image: url(halie-west-25xggax4bSA-unsplash.jpg);
+  background-size: cover;
+}
+
+.rightdiv {
+  border: 2px dotted royalblue;
 }
