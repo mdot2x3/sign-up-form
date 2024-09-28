@@ -11,6 +11,7 @@
 
 html, body {
   height: 100%;
+  width: 100%;
   font-family: 'Norse-Bold', Courier, monospace;
   font-size: 50px;
 }
@@ -21,11 +22,47 @@ html, body {
 }
 
 .leftdiv {
-  border: 2px dotted seagreen;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 35%;
   background-image: url(halie-west-25xggax4bSA-unsplash.jpg);
   background-size: cover;
+  color: white;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 35%;
+  padding: 10px;
+  font-size: 2em;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+img {
+  height: 1.2em;
+}
+
+.leftfooter {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+#photocredit {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 14px;
+  
+  
+  
+}
+
+a:link {
+  color: white;
 }
 
 .rightdiv {
-  border: 2px dotted royalblue;
+  width: 65%;
 }
