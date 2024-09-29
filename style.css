@@ -75,17 +75,30 @@ a:link {
 .formcontainer {
   background-color: white;
   box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.2);
-  height: 150px;
   margin-bottom: 25px;
 }
 
-.innerform {
+.formcontainer p{
   margin-left: 5%;
   padding-top: 2%;
+  font-weight: bold;
 }
 
-.innerform p{
-  font-weight: bold;
+form {
+  margin-left: 5%;
+  padding-top: 2%;
+  padding-bottom: 5%;
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  gap: 10%;
+}
+
+.inputleft,
+.inputright {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
 }
 
 .rightfooter {
