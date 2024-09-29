@@ -75,7 +75,7 @@ a:link {
 .formcontainer {
   background-color: white;
   box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.2);
-  margin-bottom: 25px;
+  margin-bottom: 40px;
 }
 
 .formcontainer p{
@@ -92,6 +92,17 @@ form {
   display: flex;
   justify-content: space-between;
   gap: 10%;
+  font-size: 16px;
+}
+
+form input {
+  margin-bottom: 5%;
+  height: 30px;
+  border-radius: 4px;
+}
+
+input:focus {
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
 }
 
 .inputleft,
@@ -105,11 +116,10 @@ form {
   margin-left: 5%;
   flex-direction: column;
   font-size: 16px;
-  font-weight: bold;
 }
 
 #submitbutton {
-  margin-bottom: 5%;
+  margin-bottom: 3%;
   padding: 15px 50px;
   border-radius: 12px;
   background-color: #596D48;
@@ -117,6 +127,7 @@ form {
   font-size: 16px;
   font-weight: bold;
   border: none;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
 }
 
 .rightfooter a {
